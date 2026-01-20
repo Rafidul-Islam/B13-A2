@@ -86,3 +86,13 @@ html {
 .play-btn:hover {
   background: rgba(255, 255, 255, 0.4);
 }
+
+.host-section {
+  background-color: #1a0b2e;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    padding: 1.5rem;
+  }
+}
