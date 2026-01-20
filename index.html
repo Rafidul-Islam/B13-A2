@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechWave - Podcast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-[#0F011E] text-white font-['Inter']">
+    <nav
+      class="flex justify-between items-center px-6 lg:px-32 py-6 max-w-full mx-auto sticky top-0 bg-[#0F011E] z-50"
+    >
+      <div class="text-3xl font-bold">
+        Tech<span class="gradient-text text-pink-500">Wave</span>
+      </div>
+
+      <ul class="hidden lg:flex space-x-12 text-gray-300 font-medium">
+        <li><a href="#about" class="hover:text-white transition">About</a></li>
+        <li>
+          <a href="#episodes" class="hover:text-white transition">Episodes</a>
+        </li>
+        <li><a href="#host" class="hover:text-white transition">Host</a></li>
+      </ul>
+
+      <button
+        class="hidden lg:block nav-btn px-8 py-3 rounded-full font-semibold"
+      >
+        Subscribe →
+      </button>
+
+      <img
+        src="./assets/hamburger-menu.png"
+        class="w-8 lg:hidden cursor-pointer"
+        alt="Menu"
+      />
+    </nav>
+  </body>
+</html>

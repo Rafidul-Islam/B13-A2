@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff00cc, #7000ff);
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-btn {
+  background: linear-gradient(90deg, #ff00cc, #7000ff);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 0, 204, 0.3);
+}
