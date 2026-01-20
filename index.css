@@ -56,3 +56,33 @@ html {
   border-color: #ff00cc;
   transform: translateY(-8px);
 }
+
+.episode-card {
+  background-color: #1a0b2e;
+  border-radius: 2rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: border-color 0.3s;
+}
+
+.play-btn {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.play-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
