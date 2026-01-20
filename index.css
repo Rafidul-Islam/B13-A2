@@ -18,3 +18,28 @@ html {
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(255, 0, 204, 0.3);
 }
+
+.spotify-btn {
+  background: linear-gradient(90deg, #ffcc00, #ff00cc);
+  color: black;
+  transition: opacity 0.3s;
+}
+
+.spotify-btn:hover {
+  opacity: 0.9;
+}
+
+.subscribe-outline-btn {
+  border: 1px solid #00ff85;
+  color: white;
+}
+
+.subscribe-outline-btn:hover {
+  background: rgba(0, 255, 133, 0.1);
+}
+
+.hero-bg {
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+}
