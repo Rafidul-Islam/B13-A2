@@ -43,3 +43,16 @@ html {
   background-size: cover;
   background-position: center;
 }
+
+.feature-card {
+  background-color: #1a0b2e;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: #ff00cc;
+  transform: translateY(-8px);
+}
